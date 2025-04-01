@@ -1,0 +1,8 @@
+.--layer-popup-wrap {display: none;position: fixed}
+.--layer-popup-wrap .--layer-popup-bg {width:100dvw;height: 100dvh;position: fixed;top: 0;left:0;box-sizing: border-box;background-color: rgba(0,0,0,.5);}
+.--layer-popup-container{position: fixed;background-color: #fff;border-radius: 10px;}
+.--layer-popup-header {width: 100%;align-items: center; justify-content: space-between;border-bottom: 1px solid #d4cabe;background-color: #d4cabe;border-top-right-radius: 10px; border-top-left-radius: 10px; }
+.--layer-popup-header span{display: flex;}
+.--layer-popup-header .--layer-popup-title{width: 80%;font-weight: bold;font-size: 18px;padding: 1.5rem;box-sizing: content-box;}
+.--layer-popup-header .--layer-popup-close{justify-content: end;cursor: pointer;padding: 1.5rem;box-sizing: content-box;}
+.--layer-popup-container .--layer-popup-main {padding: 1rem;width: 100%;height: 100%;display: flex;justify-content: start;align-items: start;box-sizing: border-box; }

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-display: swap;
+    src: local('Pretendard Regular'), url(/fonts/Pretendard-Regular.woff2) format('woff2'), url(/fonts/Pretendard-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-display: swap;
+    src: local('Pretendard SemiBold'), url(/fonts/Pretendard-SemiBold.woff2) format('woff2'), url(/fonts/Pretendard-SemiBold.woff) format('woff');
+}
+@font-face{
+    font-family:NanumSquareRoundL;
+    src:url(/fonts/NanumSquareRoundL.eot);
+    src:local("NanumSquareRoundL"), url(/fonts/NanumSquareRoundL.woff) format('woff'), url(/fonts/NanumSquareRoundL.ttf) format('truetype');
+}
+@font-face{
+    font-family:NanumSquareRoundR;
+    src:url(/fonts/NanumSquareRoundR.eot);
+    src:local("NanumSquareRoundR"), url(/fonts/NanumSquareRoundR.woff) format('woff'), url(/fonts/NanumSquareRoundR.ttf) format('truetype');
+}
+@font-face{
+    font-family:NanumSquareRoundB;
+    src:url(/fonts/NanumSquareRoundB.eot);
+    src:local("NanumSquareRoundB"), url(/fonts/NanumSquareRoundB.woff) format('woff'), url(/fonts/NanumSquareRoundB.ttf) format('truetype');
+}
+@font-face{
+    font-family:NanumSquareRoundEB;
+    src:url(/fonts/NanumSquareRoundEB.eot);
+    src:local("NanumSquareRoundEB"), url(/fonts/NanumSquareRoundEB.woff) format('woff'), url(/fonts/NanumSquareRoundEB.ttf) format('truetype');
+}
+@font-face{
+    font-family:IM_HyeminBold;
+    src:url(/fonts/IM_Hyemin-Bold.eot);
+    src:local("IM_HyeminBold"), url(/fonts/IM_Hyemin-Bold.woff) format('woff'), url(/fonts/IM_Hyemin-Bold.ttf) format('truetype');
+}
+@font-face{
+    font-family:IM_HyeminRegular;
+    src:url(/fonts/IM_Hyemin-Regular.eot);
+    src:local("IM_HyeminRegular"), url(/fonts/IM_Hyemin-Regular.woff) format('woff'), url(/fonts/IM_Hyemin-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family:GangwonEduAllBold;
+    src:url(/fonts/GangwonEduAll-Bold.eot);
+    src:local("GangwonEduAllBold"), url(/fonts/GangwonEduAll-Bold.woff) format('woff'), url(/fonts/GangwonEduAll-Bold.ttf) format('truetype');
+}
+@font-face{
+    font-family:GangwonEduAllLight;
+    src:url(/fonts/GangwonEduAll-Light.eot);
+    src:local("GangwonEduAllLight"), url(/fonts/GangwonEduAll-Light.woff) format('woff'), url(/fonts/GangwonEduAll-Light.ttf) format('truetype');
+}
+@font-face{
+    font-family:MaplestoryBold;
+    src:url(/fonts/Maplestory-Bold.eot);
+    src:local("MaplestoryBold"), url(/fonts/Maplestory-Bold.woff) format('woff'), url(/fonts/Maplestory-Bold.ttf) format('truetype');
+}
+@font-face{
+    font-family:MaplestoryLight;
+    src:url(/fonts/Maplestory-Light.eot);
+    src:local("MaplestoryLight"), url(/fonts/Maplestory-Light.woff) format('woff'), url(/fonts/Maplestory-Light.ttf) format('truetype');
+}
+@font-face{
+    font-family:Yangjin;
+    src:url(/fonts/Yangjin.eot);
+    src:local("Yangjin"), url(/fonts/Yangjin.woff) format('woff'), url(/fonts/Yangjin.ttf) format('truetype');
+}
+@font-face{
+    font-family:Jalnan;
+    src:url(/fonts/Jalnan.eot);
+    src:local("Jalnan"), url(/fonts/Jalnan.woff) format('woff'), url(/fonts/Jalnan.ttf) format('truetype');
+}
+@font-face{
+    font-family:ONE_MobilePOP;
+    src:url(/fonts/ONE_Mobile_POP.eot);
+    src:local("ONE_MobilePOP"), url(/fonts/ONE_Mobile_POP.woff) format('woff'), url(/fonts/ONE_Mobile_POP.ttf) format('truetype');
+}
+@font-face{
+    font-family:ONE_MobileTitle;
+    src:url(/fonts/ONE_Mobile_Title.eot);
+    src:local("ONE_MobileTitle"), url(/fonts/ONE_Mobile_Title.woff) format('woff'), url(/fonts/ONE_Mobile_Title.ttf) format('truetype');
+}
+@font-face{
+    font-family:INKLIPQUID;
+    src:url(/fonts/THEFACESHOP_INKLIPQUID.eot);
+    src:local("INKLIPQUID"), url(/fonts/THEFACESHOP_INKLIPQUID.woff) format('woff'), url(/fonts/THEFACESHOP_INKLIPQUID.ttf) format('truetype');
+}
+@font-face{
+    font-family:GmarketSansTTFBold;
+    src:url(/fonts/GmarketSansTTFBold.eot);
+    src:local("GmarketSansTTFBold"), url(/fonts/GmarketSansTTFBold.woff) format('woff'), url(/fonts/GmarketSansTTFBold.ttf) format('truetype');
+}
+@font-face{
+    font-family:GmarketSansTTFLight;
+    src:url(/fonts/GmarketSansTTFLight.eot);
+    src:local("GmarketSansTTFLight"), url(/fonts/GmarketSansTTFLight.woff) format('woff'), url(/fonts/GmarketSansTTFLight.ttf) format('truetype');
+}
+@font-face{
+    font-family:GmarketSansTTFMedium;
+    src:url(/fonts/GmarketSansTTFMedium.eot);
+    src:local("GmarketSansTTFMedium"), url(/fonts/GmarketSansTTFMedium.woff) format('woff'), url(/fonts/GmarketSansTTFMedium.ttf) format('truetype');
+}
+@font-face{
+    font-family:CookieRunBlack;
+    src:url(/fonts/CookieRun_Black.eot);
+    src:local("CookieRunBlack"), url(/fonts/CookieRun_Black.woff) format('woff'), url(/fonts/CookieRun_Black.ttf) format('truetype');
+}
+@font-face{
+    font-family:CookieRunBold;
+    src:url(/fonts/CookieRun_Bold.eot);
+    src:local("CookieRunBold"), url(/fonts/CookieRun_Bold.woff) format('woff'), url(/fonts/CookieRun_Bold.ttf) format('truetype');
+}
+@font-face{
+    font-family:CookieRunRegular;
+    src:url(/fonts/CookieRun_Regular.eot);
+    src:local("CookieRunRegular"), url(/fonts/CookieRun_Regular.woff) format('woff'), url(/fonts/CookieRun_Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family:TMONBlack;
+    src:url(/fonts/TMONBlack.eot);
+    src:local("TMONBlack"), url(/fonts/TMONBlack.woff) format('woff'), url(/fonts/TMONBlack.ttf) format('truetype');
+}
+@import url("https://use.typekit.net/qbk1izr.css");

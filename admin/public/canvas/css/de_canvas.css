@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-display: swap;
+    src: local('Pretendard Regular'), url(/fonts/Pretendard-Regular.woff2) format('woff2'), url(/fonts/Pretendard-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-display: swap;
+    src: local('Pretendard SemiBold'), url(/fonts/Pretendard-SemiBold.woff2) format('woff2'), url(/fonts/Pretendard-SemiBold.woff) format('woff');
+}
+
+body *{
+    font-family: 'Pretendard',"Nanum Gothic", "Dotum", "Malgun Gothic","돋움";
+}
+a{ text-decoration: none; color: #333;}
+ul{padding-left: 0!important;}
+
+
+/* 사이즈 셋팅 */
+header , main , footer { max-width: 1200px; display: flex; margin: 0 auto; }
+header > div , main > div , main >footer {align-content: center}
+
+
+/* header */
+.header-div {
+    height: 100px;
+}
+.header-div > div{
+    min-width: 200px;
+}
+
+.cmc-wrap a{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    color:#56d4d3;
+    text-decoration: none;
+    font-weight: 600;
+}
+.cmc-wrap a:last-child:before{
+    content: "";
+    height: 12px;
+    width: 1px;
+    position: absolute;
+    top: 5px;
+    left:-2px;
+    background: #ccc;
+}
+
+.mem-wrap{
+    margin-top: 2rem;
+    width: 180px;
+}
+.mem-wrap a{
+    text-decoration: none;
+    padding-top: .5rem;
+}
+.mem-wrap a:last-child{
+    margin-right: 0;
+}
+.mem-wrap a:hover i{
+    color:#333!important;
+    transition: color .25s;
+}
+.mem-wrap a i{
+    font-size: 22px;
+    color:#aaa;
+    transition: color .25s;
+}
+.mem-wrap a span{
+    font-size: 12px;
+}
+
+.mem-wrap a span{
+    width: 100px;
+    text-decoration: none;
+}
+
+.fa-solid{
+    margin: 0!important;
+}
+
+.search-wrap{
+    background-color: #ffe1e3;
+    border-radius:100px;
+    height: 80px;
+}
+.search-wrap .search-text i{ cursor: pointer;  right: 20px; font-size: 35px;color: #fe7e8d}
+.search-category {
+    display: flex;
+    _width: 60%;
+    justify-content: space-evenly;
+    height: 80px;
+}
+.search-category *{
+    font-weight: 600;
+    font-size: 20px;
+}
+.search-category li:first-child{
+}
+.search-category li {
+    display: flex;
+    align-items: center;
+}
+.search_text{
+    border-radius: 40px;
+    height: 55px;
+    text-align: center;
+    font-size: 20px;
+}
+.search_text:focus{
+    border-color: #fe7e8d;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(254, 126, 141, 0.6)!important;
+}
+.search_text::placeholder{ text-align: center;color: #ccc; }
+.search_text::-webkit-input-placeholder { text-align: center;color: #ccc; }
+.search_text:-moz-placeholder { text-align: center;color: #ccc; } /* Firefox 18- */
+.search_text::-moz-placeholder {  text-align: center;color: #ccc; } /* Firefox 19+ */
+.search_text:-ms-input-placeholder { text-align: center;color: #ccc; }
+
+/* main */
+
+.contents-category-wrap {width: 1100px}
+.contents-category {margin: 0}
+.contents-category li{ background-color: #f5f5f5;margin-right: .5rem;  border-radius: 12px;transition: background-color .25s }
+.contents-category li:hover:not(.active){ background-color: #ffe1e3;transition: background-color .25s}
+
+.contents-category li.active {background-color: #fe7e8d;}
+.contents-category li.active a {color:#fff;font-weight: 400}
+.contents-category li a {padding: .25rem 1rem;font-weight: 600;min-width: 90px;}
+header .create a {background-color: #73d3df;color: #fff;padding: .75rem 1.5rem;border-radius: 30px}
+header .create a:hover{color: #fff;}
+
+.contents-lists > .grid > .grid-items { margin-bottom: 10px; background-color: #f5f5f5;border-radius: 10px;overflow: hidden; }
+.contents-lists > .grid > .grid-items:hover { transition:all .1s; }
+.contents-lists > .grid > .grid-items > a { display: inline-block; width: 220px; text-align: center;padding: 1rem; box-sizing: border-box;}
+.contents-lists > .grid > .grid-items > a > img { width: 100%; border-radius: 10px; }
+.contents-lists > .grid > .grid-items:hover > a > img {transform: scale(1.03); transition: all .5s}
+
+.grid-items a > span{
+    text-align: left;color:#fff; padding: .25rem .5rem ; bottom: -32px;left:0;width: 220px;
+    background-color: rgba(0,0,0,0.5);display: inline-block; border-bottom-right-radius: 15px;
+    border-bottom-left-radius:10px;transition: all .25s;box-sizing: border-box; font-size: 14px;
+}
+.grid-items:hover a > span{
+    bottom: 0;
+    transition: all .25s;
+}
+
+
+/* footer */
+footer {
+    font-size: 13px;
+}
+
+.main_ftinfo{
+    flex-grow: 1;
+}
+.main_ftinfo li{
+    margin-bottom: .5rem;
+}
+
+.main_ftcenter{
+    flex-grow: 4;
+}
+
+.main_fttellall {
+    flex-grow: 1;
+}
+
+.main_ftcbtnall{
+    padding: 0;
+    margin: 0;
+}
+.main_ftcbtnall li{
+    margin: 0 1rem ;
+    position: relative;
+}
+.main_ftcbtnall li:after{
+    content: "";
+    height: 10px;
+    width: 1px;
+    background-color: #ccc;
+    display: inline-block;
+    top: 4px;
+    right:-18px;
+    position: absolute;
+}
+
+.main_ftcbtnall li:last-child::after{
+    content: none;
+}
+
+.main_ftcsnsall li{
+    margin-top: 1.75rem;
+    margin-right: .25rem;
+}
+
+.main_ftcsns1 {
+    display:block;width:25px;height:25px;
+    background:url('/images/main3/sns1_off.jpg') 0px 0px no-repeat;
+}
+.main_ftcsns1:hover {background:url('/images/main3/sns1_on.jpg') 0px 0px no-repeat;}
+.main_ftcsns2 {
+    display:block;width:25px;height:25px;
+    background:url('/images/main3/sns2_off.jpg') 0px 0px no-repeat;
+}
+.main_ftcsns2:hover {background:url('/images/main3/sns2_on.jpg') 0px 0px no-repeat;}
+.main_ftcsns3 {
+    display:block;width:25px;height:25px;
+    background:url('/images/main3/sns3_off.jpg') 0px 0px no-repeat;
+}
+.main_ftcsns3:hover {background:url('/images/main3/sns3_on.jpg') 0px 0px no-repeat;}
+.main_ftcsns4 {
+    display:block;width:25px;height:25px;
+    background:url('/images/main3/sns4_off.jpg') 0px 0px no-repeat;
+}
+.main_ftcsns4:hover {background:url('/images/main3/sns4_on.jpg') 0px 0px no-repeat;}
+
+
+.main_fttelln{
+    font-size: 26px;
+    color: #404040;
+    padding: 0 0 8px 0;
+}
+.main_fttellt{
+    font-size: 14px;
+    color: #767676;
+    padding-left: 15px;
+    line-height: 22px;
+    background: url(/images/main3/mdeco4.jpg) 0px 4px no-repeat;
+}

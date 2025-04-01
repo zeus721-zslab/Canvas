@@ -1,0 +1,46 @@
+td,th{vertical-align: middle;}
+ul{margin: 0}
+li{padding: 0}
+.list-table {font-size: 14px}
+#text_img_files_list li
+, #img_files_list li
+, #curr_files_list li
+, #curr_files li {display: inline-block;width: 25%;margin-bottom: 10px;}
+#text_img_files_list li img
+, #img_files_list li img
+, #curr_files_list li img
+, #curr_files li img{width: 100%;cursor: pointer}
+.keywordList li{margin-left: 10px;}
+.keywordList li:first-child {margin-left: 0!important;}
+
+#menu-list { border: 1px solid #f0f0f0;border-radius: 5px; box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);}
+#menu-list li {padding: 0}
+#menu-list label {margin-bottom: 0}
+#menu-list li:nth-child(1) > .menu-title {border-top-left-radius: 5px;}
+#menu-list li:nth-child(4) > .menu-title {border-top-right-radius: 5px;}
+#menu-list li > .menu-title {padding: 10px 0;}
+#menu-list > li > ul > li {padding-top: 8px;}
+#menu-list > li > ul > li:last-child {padding-bottom: 8px;}
+#menu-list:after{clear: both;display: block;content: "";}
+
+/* 다중 모달 시 back modal issue 처리 */
+.modal.fade { background: rgba(0, 0, 0, 0.5); }
+.modal-backdrop.fade {opacity: 0; }
+
+/*모달 크기 확장*/
+.modal-xxl{max-width: 90%; min-width: 1300px;}
+
+/* 페이징 */
+.dataTables_paginate .pagination{margin: 14px 0;}
+
+/* 이미지 바로가기 */
+.goViewImg{cursor: pointer}
+
+/*모달*/
+.modal-header{justify-content: space-between}
+.modal-header .close{border: none;background: #fff;font-size: 2rem}
+
+
+/*버튼*/
+.btn.btn-xs{font-size: 0.875rem !important;padding-bottom: 0.125rem!important;padding-top: 0.25rem!important;padding-left: 0.5rem!important;padding-right: 0.5rem!important;}
+

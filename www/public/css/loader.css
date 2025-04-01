@@ -1,0 +1,14 @@
+.--loader {
+    height: 15px;
+    aspect-ratio: 5;
+    -webkit-mask: linear-gradient(90deg,#0000 ,#fff 20% 80%,#0000);
+    background: radial-gradient(closest-side at 37.5% 50%,#fff 94%,#0000) 0/calc(80%/3) 100%;
+    animation: loader-keyframe .75s infinite linear;
+}
+@keyframes loader-keyframe {
+    100% {background-position: 36.36%}
+}
+.--loader-area{position: fixed;height: 100dvh;width: 100dvw;display: flex;justify-content: center;align-items: center;top: 0;left: 0;z-index: 2000;}
+.--loader-area .--loader-bg{background-color: rgba(0,0,0,0.6);height: 100%;width: 100%;position: absolute;top: 0;left: 0; }
+.--loader-area .--loader-wrap{display: flex;z-index: 2001;align-items: center;gap: 1rem;}
+.--loader-area .--loader-wrap span{color: #fff;_font-weight: bold;font-size: 1.25rem;}

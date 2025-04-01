@@ -1,0 +1,323 @@
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-display: swap;
+    src: local('Pretendard Regular'), url(/canvas/fonts/Pretendard-Regular.woff2) format('woff2'), url(/canvas/fonts/Pretendard-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-display: swap;
+    src: local('Pretendard SemiBold'), url(/canvas/fonts/Pretendard-SemiBold.woff2) format('woff2'), url(/canvas/fonts/Pretendard-SemiBold.woff) format('woff');
+}
+
+body *{
+    font-family: 'Pretendard',"Nanum Gothic", "Dotum", "Malgun Gothic","돋움";
+}
+a{ text-decoration: none; color: #333;}
+ul{padding-left: 0!important;}
+
+
+@font-face{
+    font-family:NanumSquareRoundL;
+    src:url(/canvas/fonts/NanumSquareRoundL.eot);
+    src:local("��"), url(/canvas/fonts/NanumSquareRoundL.woff) format('woff'), url(/canvas/fonts/NanumSquareRoundL.ttf) format('truetype');
+}
+@font-face{
+    font-family:NanumSquareRoundR;
+    src:url(/canvas/fonts/NanumSquareRoundR.eot);
+    src:local("��"), url(/canvas/fonts/NanumSquareRoundR.woff) format('woff'), url(/canvas/fonts/NanumSquareRoundR.ttf) format('truetype');
+}
+@font-face{
+    font-family:NanumSquareRoundB;
+    src:url(/canvas/fonts/NanumSquareRoundB.eot);
+    src:local("��"), url(/canvas/fonts/NanumSquareRoundB.woff) format('woff'), url(/canvas/fonts/NanumSquareRoundB.ttf) format('truetype');
+}
+@font-face{
+    font-family:NanumSquareRoundEB;
+    src:url(/canvas/fonts/NanumSquareRoundEB.eot);
+    src:local("��"), url(/canvas/fonts/NanumSquareRoundEB.woff) format('woff'), url(/canvas/fonts/NanumSquareRoundEB.ttf) format('truetype');
+}
+
+/*
+ @font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;font-style: normal;
+}
+*/
+@font-face{
+    font-family:IM_HyeminBold;
+    src:url(/canvas/fonts/IM_Hyemin-Bold.eot);
+    src:local("��"), url(/canvas/fonts/IM_Hyemin-Bold.woff) format('woff'), url(/canvas/fonts/IM_Hyemin-Bold.ttf) format('truetype');
+}
+@font-face{
+    font-family:IM_HyeminRegular;
+    src:url(/canvas/fonts/IM_Hyemin-Regular.eot);
+    src:local("��"), url(/canvas/fonts/IM_Hyemin-Regular.woff) format('woff'), url(/canvas/fonts/IM_Hyemin-Regular.ttf) format('truetype');
+}
+
+
+@font-face{
+    font-family:GangwonEduAllBold;
+    src:url(/canvas/fonts/GangwonEduAll-Bold.eot);
+    src:local("��"), url(/canvas/fonts/GangwonEduAll-Bold.woff) format('woff'), url(/canvas/fonts/GangwonEduAll-Bold.ttf) format('truetype');
+}
+@font-face{
+    font-family:GangwonEduAllLight;
+    src:url(/canvas/fonts/GangwonEduAll-Light.eot);
+    src:local("��"), url(/canvas/fonts/GangwonEduAll-Light.woff) format('woff'), url(/canvas/fonts/GangwonEduAll-Light.ttf) format('truetype');
+}
+
+
+
+@font-face{
+    font-family:MaplestoryBold;
+    src:url(/canvas/fonts/Maplestory-Bold.eot);
+    src:local("��"), url(/canvas/fonts/Maplestory-Bold.woff) format('woff'), url(/canvas/fonts/Maplestory-Bold.ttf) format('truetype');
+}
+@font-face{
+    font-family:MaplestoryLight;
+    src:url(/canvas/fonts/Maplestory-Light.eot);
+    src:local("��"), url(/canvas/fonts/Maplestory-Light.woff) format('woff'), url(/canvas/fonts/Maplestory-Light.ttf) format('truetype');
+}
+
+
+
+@font-face{
+    font-family:Yangjin;
+    src:url(/canvas/fonts/Yangjin.eot);
+    src:local("��"), url(/canvas/fonts/Yangjin.woff) format('woff'), url(/canvas/fonts/Yangjin.ttf) format('truetype');
+}
+
+
+@font-face{
+    font-family:Jalnan;
+    src:url(/canvas/fonts/Jalnan.eot);
+    src:local("��"), url(/canvas/fonts/Jalnan.woff) format('woff'), url(/canvas/fonts/Jalnan.ttf) format('truetype');
+}
+
+
+@font-face{
+    font-family:ONE_MobilePOP;
+    src:url(/canvas/fonts/ONE_Mobile_POP.eot);
+    src:local("��"), url(/canvas/fonts/ONE_Mobile_POP.woff) format('woff'), url(/canvas/fonts/ONE_Mobile_POP.ttf) format('truetype');
+}
+@font-face{
+    font-family:ONE_MobileTitle;
+    src:url(/canvas/fonts/ONE_Mobile_Title.eot);
+    src:local("��"), url(/canvas/fonts/ONE_Mobile_Title.woff) format('woff'), url(/canvas/fonts/ONE_Mobile_Title.ttf) format('truetype');
+}
+
+
+
+@font-face{
+    font-family:INKLIPQUID;
+    src:url(/canvas/fonts/THEFACESHOP_INKLIPQUID.eot);
+    src:local("��"), url(/canvas/fonts/THEFACESHOP_INKLIPQUID.woff) format('woff'), url(/canvas/fonts/THEFACESHOP_INKLIPQUID.ttf) format('truetype');
+}
+
+
+@font-face{
+    font-family:GmarketSansTTFBold;
+    src:url(/canvas/fonts/GmarketSansTTFBold.eot);
+    src:local("��"), url(/canvas/fonts/GmarketSansTTFBold.woff) format('woff'), url(/canvas/fonts/GmarketSansTTFBold.ttf) format('truetype');
+}
+@font-face{
+    font-family:GmarketSansTTFLight;
+    src:url(/canvas/fonts/GmarketSansTTFLight.eot);
+    src:local("��"), url(/canvas/fonts/GmarketSansTTFLight.woff) format('woff'), url(/canvas/fonts/GmarketSansTTFLight.ttf) format('truetype');
+}
+@font-face{
+    font-family:GmarketSansTTFMedium;
+    src:url(/canvas/fonts/GmarketSansTTFMedium.eot);
+    src:local("��"), url(/canvas/fonts/GmarketSansTTFMedium.woff) format('woff'), url(/canvas/fonts/GmarketSansTTFMedium.ttf) format('truetype');
+}
+
+
+
+@font-face{
+    font-family:CookieRunBlack;
+    src:url(/canvas/fonts/CookieRun_Black.eot);
+    src:local("��"), url(/canvas/fonts/CookieRun_Black.woff) format('woff'), url(/canvas/fonts/CookieRun_Black.ttf) format('truetype');
+}
+@font-face{
+    font-family:CookieRunBold;
+    src:url(/canvas/fonts/CookieRun_Bold.eot);
+    src:local("��"), url(/canvas/fonts/CookieRun_Bold.woff) format('woff'), url(/canvas/fonts/CookieRun_Bold.ttf) format('truetype');
+}
+@font-face{
+    font-family:CookieRunRegular;
+    src:url(/canvas/fonts/CookieRun_Regular.eot);
+    src:local("��"), url(/canvas/fonts/CookieRun_Regular.woff) format('woff'), url(/canvas/fonts/CookieRun_Regular.ttf) format('truetype');
+}
+
+
+@font-face{
+    font-family:TMONBlack;
+    src:url(/canvas/fonts/TMONBlack.eot);
+    src:local("��"), url(/canvas/fonts/TMONBlack.woff) format('woff'), url(/canvas/fonts/TMONBlack.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-display: swap;
+    src: local('Pretendard Regular'), url(/canvas/fonts/Pretendard-Regular.woff2) format('woff2'), url(/canvas/fonts/Pretendard-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-display: swap;
+    src: local('Pretendard SemiBold'), url(/canvas/fonts/Pretendard-SemiBold.woff2) format('woff2'), url(/canvas/fonts/Pretendard-SemiBold.woff) format('woff');
+}
+
+@import url("https://use.typekit.net/qbk1izr.css");
+
+
+body{  height: 100dvh; }
+header{ height:64px; }
+p {margin-bottom: 0!important;}
+a{ text-decoration: none; color: #333;}
+ul{padding-left: 0!important;margin: 0!important;}
+
+.all-menu{  height: 100%; text-align: center; cursor: pointer; padding: 0 1.125rem;}
+.all-menu:after{ content: ""; position: absolute; top: 18px; right: 0;height: 30px;width: 1px; background: #dee2e6; }
+
+main .left-menu .col-resize{ position: absolute; display: inline-block; width: 15px; height: 82px; top: calc( 50% - 32px ); left:447px;cursor: col-resize; _background-color: transparent;z-index: 96 }
+
+.contents-wrap{ display: flex; align-items: stretch; height: calc(100% - 64px); }
+.contents-wrap .icon-menu{ }
+.contents-wrap .icon-menu li{ display: flex; align-items: center; justify-content: center; height: 67px; width: 67px; }
+.contents-wrap .icon-menu li > div{ display: flex; flex-direction: column; align-items: center;justify-content: center;font-size: 13px;width: 54px; height: 54px; padding-top: .25rem;}
+.contents-wrap .icon-menu li > div.active{ background-color: rgba(0,0,255,0.1); border-radius: 5px;}
+.contents-wrap .icon-menu li > div > span{ margin-top: .25rem; }
+.contents-wrap .contents-menu-wrap{ width: 380px; }
+.contents-wrap .contents-menu-wrap.wrap-disable{ display: none!important; }
+.contents-menu-wrap .icon-magnifying{ top: 10px; left: 14px; color: #aaa; }
+.contents-menu-wrap .icon-text-cancel { top: 10px; right: 14px; color: #aaa;cursor: pointer;}
+.image-list { transition: all .25s; }
+.image-list .image-list-inner > a { cursor: pointer;}
+.contents-list-wrap .template-list-inner > a{cursor: pointer;}
+.contents-list-wrap{ margin-bottom: 2rem; }
+.contents-list-wrap > button{ display: none; border:1px solid #ddd; border-radius: 100%; padding: 0; margin: 0;position: absolute; top: 54%; background: #fff; height: 20px; width: 20px; align-items: center; justify-content: center;box-shadow: 0 0 1px #444; transition: .25s; }
+.contents-list-wrap > button.image-prev{ left: -7px; font-size: 13px;color: #333; }
+.contents-list-wrap > button.image-next{ right:-9px; font-size: 13px;color: #333;}
+.contents-list-wrap:hover > button{ display: flex!important; transition: .25s; }
+.icon-menu-wrap > ul > li > div{ cursor: pointer }
+.justified-gallery > a {background-color:#ddd!important;border-radius: 10px;}
+.justified-gallery > a > img:hover{ border:none!important; ; }
+.justified-gallery > a > img{ border:none!important; ; }
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgb(255,255,255);
+    border-radius: 10px;
+    background-color: #fff!important;
+    scrollbar-track-color: #fff!important;
+}
+
+::-webkit-scrollbar
+{
+    border-radius: 10px;
+    width: 12px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+    background-color: #fff!important;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+    background-color: #fff!important;
+}
+
+.canvas-wrap{_padding-bottom: 3rem}
+.objPopMenu{ position:absolute; z-index:99; display:none; width:170px; background-color:#fff; box-shadow: 3px 3px 3px #777; }
+.objPopMenu div {cursor: pointer}
+
+.canvas-wrap .canvas-page:first-child .fa-arrow-up {color: #aaa}
+.canvas-wrap .canvas-page:last-child .fa-arrow-down {color: #aaa}
+
+
+#objLoading{
+    z-index: 97;
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:#000000;
+    filter:Alpha(opacity=60);
+    opacity:0.6;
+    -moz-opacity:0.6;
+}
+
+.wrapProgress{
+    z-index:98;
+    position:absolute;
+    width:600px;
+    height:80px;
+    background-color:#fff;
+    border-radius:10px !important;
+    display:none;
+}
+
+.ui-widget-header{
+    color:#000!important;
+    background:none!important;
+    border:0!important;
+    font-weight:bold!important;
+}
+
+.progress-label{
+    color:#9b4fff;
+}
+.ui-progressbar{
+    height:12px;
+    margin-top:10px;
+}
+.ui-slider-horizontal{
+    height:1px;
+}
+
+.ui-slider-horizontal .ui-slider-handle{
+    top:-8px;
+    margin-left:-5px;
+}
+
+.ui-slider .ui-slider-handle{
+    width:10px;
+    height:15px;
+}
+.object-wrap{
+
+}
+.object-wrap .oject-menu-title{
+    background: #ddd;
+    border-radius: 10px;
+    padding: .5rem 0;
+}
+
+.object-wrap .btnAlign{
+    _width: 120px;
+    cursor: pointer;
+}
+
+.objItemTemplate
+,.objItemImg
+,.objBGImg{
+    cursor: pointer;
+}
+/*나의 업로드 삭제*/
+.myimg-delete{
+    display: inline-block;margin:.25rem;z-index: 999999;position: relative;float: right;cursor: pointer;
+}
